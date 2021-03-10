@@ -1,4 +1,4 @@
-describe('outer', () => {
+describe.only('outer', () => {
     console.log('describe outer-a'); //1
     describe('describe inner 1', () => {
         console.log('describe inner 1');//2
